@@ -1,0 +1,25 @@
+{
+  "default": {
+    "versions": {
+      "web3.js": "1.0.0-beta",
+      "solc": "0.4.17"
+    },
+    "deployment": {
+      "host": "localhost",
+      "port": 8545,
+      "type": "rpc"
+    },
+    "dappConnection": [
+      "$WEB3",
+      "http://localhost:8545"
+    ],
+    "gas": "auto",
+    "contracts": {
+      "MDBAccount": {
+       "args": [
+         "0xdbc139734236fdbf77eb4d4b5db076f994fa1535"
+       ]
+     }
+    }
+  }
+}
