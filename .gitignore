@@ -19,3 +19,4 @@ test_app/chains.json
 .embark/
 NOTES
 npm-debug.log
+.DS_Store
