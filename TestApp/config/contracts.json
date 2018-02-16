@@ -18,7 +18,8 @@
       "SimpleStorage": {
         "args": [
           100
-        ]
+        ],
+        "gas": 0
       }
     }
   }
